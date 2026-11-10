@@ -1,0 +1,22 @@
+Task : Sales Prediction
+
+Dataset:
+The dataset contains advertising spending for TV, radio, and newspaper, along with sales. It has 200 rows and no missing values. The extra row-number column was removed.
+
+Models:
+I trained and compared Linear Regression and Random Forest models.
+
+Results:
+Random Forest was selected for this run.
+Random Forest: MAE = 0.66, RMSE = 0.79, R² = 0.98
+Linear Regression: MAE = 1.46, RMSE = 1.78, R² = 0.90
+
+Findings:
+TV advertising had the strongest correlation with sales (0.78), followed by radio (0.58) and newspaper (0.23). These are relationships in this dataset; they do not prove that advertising alone caused the sales changes.
+
+Files created:
+outputs/advertising_vs_sales.png
+outputs/correlation_heatmap.png
+outputs/actual_vs_predicted.png
+outputs/model_comparison.csv
+outputs/best_sales_model.joblib
